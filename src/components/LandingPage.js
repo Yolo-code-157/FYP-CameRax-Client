@@ -48,182 +48,185 @@ function LandingPage() {
 
     return (
         <div>
-            <h1>Malaysia COVID Status</h1>
-            <ul>
-                <li className="box">
-                    <div className="card_main">
-                        <div className="card_inner">
-                            <p className="card_name"><span>My</span> Country</p>
-                            <p className="card_total card_small">MALAYSIA</p>
-                        </div>
-                    </div>
-                </li>
-                <div className="grid">
-                <li className="box">
-                    <div className="card_main">
-                        <div className="card_inner">
-                            <p className="card_name"><span>cases </span>Confirmed</p>
-                            <p className="card_total card_small">{data.confirmed}</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="box">
-                    <div className="card_main">
-                        <div className="card_inner">
-                            <p className="card_name"><span>cases </span> Death</p>
-                            <p className="card_total card_small">{data.deaths}</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="box">
-                    <div className="card_main">
-                        <div className="card_inner">
-                            <p className="card_name"><span>cases</span> Recovered</p>
-                            <p className="card_total card_small">{data.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                </div>
-            </ul>
-            <ul>
-                <div className="grid1">
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Johor</p>
-                            <p className="card_total card_small">Confirmed: {data1.confirmed}</p>
-                            <p className="card_total card_small">Death: {data1.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data1.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Kedah</p>
-                            <p className="card_total card_small">Confirmed: {data2.confirmed}</p>
-                            <p className="card_total card_small">Death: {data2.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data2.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Kelantan</p>
-                            <p className="card_total card_small">Confirmed: {data3.confirmed}</p>
-                            <p className="card_total card_small">Death: {data3.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data3.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Melaka</p>
-                            <p className="card_total card_small">Confirmed: {data4.confirmed}</p>
-                            <p className="card_total card_small">Death: {data4.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data4.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Negeri Sembilan</p>
-                            <p className="card_total card_small">Confirmed: {data5.confirmed}</p>
-                            <p className="card_total card_small">Death: {data5.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data5.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Pahang</p>
-                            <p className="card_total card_small">Confirmed: {data6.confirmed}</p>
-                            <p className="card_total card_small">Death: {data6.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data6.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Perak</p>
-                            <p className="card_total card_small">Confirmed: {data7.confirmed}</p>
-                            <p className="card_total card_small">Death: {data7.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data7.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Perlis</p>
-                            <p className="card_total card_small">Confirmed: {data8.confirmed}</p>
-                            <p className="card_total card_small">Death: {data8.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data8.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Pulau Pinang</p>
-                            <p className="card_total card_small">Confirmed: {data9.confirmed}</p>
-                            <p className="card_total card_small">Death: {data9.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data9.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Sabah</p>
-                            <p className="card_total card_small">Confirmed: {data10.confirmed}</p>
-                            <p className="card_total card_small">Death: {data10.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data10.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Sarawak</p>
-                            <p className="card_total card_small">Confirmed: {data11.confirmed}</p>
-                            <p className="card_total card_small">Death: {data11.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data11.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Selangor</p>
-                            <p className="card_total card_small">Confirmed: {data12.confirmed}</p>
-                            <p className="card_total card_small">Death: {data12.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data12.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-                <li className="box">
-                    <div className="card_main1">
-                        <div className="card_inner">
-                            <p className="card_name"><span>state:</span> Terengganu</p>
-                            <p className="card_total card_small">Confirmed: {data13.confirmed}</p>
-                            <p className="card_total card_small">Death: {data13.deaths}</p>
-                            <p className="card_total card_small">Recovered: {data13.recovered}</p>
-                        </div>
-                    </div>
-                </li>
-
-                </div>                
-            </ul> 
+            Please head to login page to access Camera View
         </div>
+        // <div>
+        //     <h1>Malaysia COVID Status</h1>
+        //     <ul>
+        //         <li className="box">
+        //             <div className="card_main">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>My</span> Country</p>
+        //                     <p className="card_total card_small">MALAYSIA</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <div className="grid">
+        //         <li className="box">
+        //             <div className="card_main">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>cases </span>Confirmed</p>
+        //                     <p className="card_total card_small">{data.confirmed}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+
+        //         <li className="box">
+        //             <div className="card_main">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>cases </span> Death</p>
+        //                     <p className="card_total card_small">{data.deaths}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+
+        //         <li className="box">
+        //             <div className="card_main">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>cases</span> Recovered</p>
+        //                     <p className="card_total card_small">{data.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         </div>
+        //     </ul>
+        //     <ul>
+        //         <div className="grid1">
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Johor</p>
+        //                     <p className="card_total card_small">Confirmed: {data1.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data1.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data1.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Kedah</p>
+        //                     <p className="card_total card_small">Confirmed: {data2.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data2.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data2.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Kelantan</p>
+        //                     <p className="card_total card_small">Confirmed: {data3.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data3.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data3.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Melaka</p>
+        //                     <p className="card_total card_small">Confirmed: {data4.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data4.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data4.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Negeri Sembilan</p>
+        //                     <p className="card_total card_small">Confirmed: {data5.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data5.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data5.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Pahang</p>
+        //                     <p className="card_total card_small">Confirmed: {data6.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data6.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data6.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Perak</p>
+        //                     <p className="card_total card_small">Confirmed: {data7.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data7.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data7.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Perlis</p>
+        //                     <p className="card_total card_small">Confirmed: {data8.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data8.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data8.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Pulau Pinang</p>
+        //                     <p className="card_total card_small">Confirmed: {data9.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data9.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data9.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Sabah</p>
+        //                     <p className="card_total card_small">Confirmed: {data10.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data10.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data10.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Sarawak</p>
+        //                     <p className="card_total card_small">Confirmed: {data11.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data11.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data11.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Selangor</p>
+        //                     <p className="card_total card_small">Confirmed: {data12.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data12.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data12.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+        //         <li className="box">
+        //             <div className="card_main1">
+        //                 <div className="card_inner">
+        //                     <p className="card_name"><span>state:</span> Terengganu</p>
+        //                     <p className="card_total card_small">Confirmed: {data13.confirmed}</p>
+        //                     <p className="card_total card_small">Death: {data13.deaths}</p>
+        //                     <p className="card_total card_small">Recovered: {data13.recovered}</p>
+        //                 </div>
+        //             </div>
+        //         </li>
+
+        //         </div>                
+        //     </ul> 
+        // </div>
     )
 }
 
