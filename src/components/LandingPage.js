@@ -2,49 +2,49 @@ import React, {useEffect, useState} from 'react'
 import './LandingPage.css'
 
 function LandingPage() {
-    const [data, setData] = useState([]);
-    const [data1, setData1] = useState([]);
-    const [data2, setData2] = useState([]);
-    const [data3, setData3] = useState([]);
-    const [data4, setData4] = useState([]);
-    const [data5, setData5] = useState([]);
-    const [data6, setData6] = useState([]);
-    const [data7, setData7] = useState([]);
-    const [data8, setData8] = useState([]);
-    const [data9, setData9] = useState([]);
-    const [data10, setData10] = useState([]);
-    const [data11, setData11] = useState([]);
-    const [data12, setData12] = useState([]);
-    const [data13, setData13] = useState([]);
+    // const [data, setData] = useState([]);
+    // const [data1, setData1] = useState([]);
+    // const [data2, setData2] = useState([]);
+    // const [data3, setData3] = useState([]);
+    // const [data4, setData4] = useState([]);
+    // const [data5, setData5] = useState([]);
+    // const [data6, setData6] = useState([]);
+    // const [data7, setData7] = useState([]);
+    // const [data8, setData8] = useState([]);
+    // const [data9, setData9] = useState([]);
+    // const [data10, setData10] = useState([]);
+    // const [data11, setData11] = useState([]);
+    // const [data12, setData12] = useState([]);
+    // const [data13, setData13] = useState([]);
 
-    const getCovidData = async () => {
-        try {
-            const res = await fetch('https://covid-api.mmediagroup.fr/v1/cases?country=Malaysia');
-            const actualData = await res.json();
-            setData(actualData.All);
-            setData1(actualData.Johor);
-            setData2(actualData.Kedah);
-            setData3(actualData.Kelantan);
-            setData4(actualData.Melaka);
-            setData5(actualData.['Negeri Sembilan']);
-            setData6(actualData.Pahang);
-            setData7(actualData.Perak);
-            setData8(actualData.Perlis);
-            setData9(actualData.['Pulau Pinang']);
-            setData10(actualData.Sabah);
-            setData11(actualData.Sarawak);
-            setData12(actualData.Selangor);
-            setData13(actualData.Terengganu);
+    // const getCovidData = async () => {
+    //     try {
+    //         const res = await fetch('https://covid-api.mmediagroup.fr/v1/cases?country=Malaysia');
+    //         const actualData = await res.json();
+    //         setData(actualData.All);
+    //         setData1(actualData.Johor);
+    //         setData2(actualData.Kedah);
+    //         setData3(actualData.Kelantan);
+    //         setData4(actualData.Melaka);
+    //         setData5(actualData.['Negeri Sembilan']);
+    //         setData6(actualData.Pahang);
+    //         setData7(actualData.Perak);
+    //         setData8(actualData.Perlis);
+    //         setData9(actualData.['Pulau Pinang']);
+    //         setData10(actualData.Sabah);
+    //         setData11(actualData.Sarawak);
+    //         setData12(actualData.Selangor);
+    //         setData13(actualData.Terengganu);
 
-            console.log(actualData);
-        } catch (err) {
-            console.log(err);
-        }
-    }
+    //         console.log(actualData);
+    //     } catch (err) {
+    //         console.log(err);
+    //     }
+    // }
 
-    useEffect(()=>{
-        getCovidData();
-    }, []);
+    // useEffect(()=>{
+    //     getCovidData();
+    // }, []);
 
     return (
         <div>
